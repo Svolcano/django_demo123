@@ -1,0 +1,9 @@
+<h1>This is Hello Django</h1>
+<ol>
+    <ul><a href="demo02/">Demo02</a></ul>
+    <ul><a href="demo01/">Demo01</a></ul>
+</ol>
+<form action="/logout/" method="post">
+    {% csrf_token %}
+    <input type="submit" value="Logout">
+</form>
